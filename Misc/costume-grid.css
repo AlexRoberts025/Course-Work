@@ -1,0 +1,103 @@
+html{
+    margin:auto;
+}
+.doc {
+    border: 10px 10px;
+    border-color: gray;
+}
+nav {
+    background-color: rgb(241, 132, 150);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 2em;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: blue;
+}
+.con {
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    border: 10px 10px;
+    border-color: gray;
+}
+.logo {
+    grid-area: 1/1/span 4/span 3;
+}
+.fb {
+    grid-area: 1/5;
+}
+.twit {
+    grid-area: 2/5;
+}
+.mask{
+    grid-area: 3/5/span 2/span 1;
+}
+.bday{
+    grid-area: 5/1/span 4/span 2;
+}
+.makeup {
+    grid-area: 5/3/span 4/ span 1;
+}
+.ages {
+    grid-area: 5/4/span 4/span 1;
+}
+.wigs {
+    grid-area: 5/5/span 4/span 1;
+}
+.outfit {
+    grid-area: 9/1/span 5/span 1;
+}
+.sale {
+    grid-area: 9/2/span 3/span 2;
+}
+.candy {
+    grid-area: 9/4/span 3/ span 1;
+}
+.hats{
+    grid-area:9/5/span 3/ span 1;
+}
+.props {
+    grid-area: 15/1;
+}
+.santa {
+    grid-area: 12/2/span 4/span 1;
+}
+.lady {
+    grid-area: 12/3/span 2/span 2;
+}
+.white {
+    grid-area: 12/5/span 2/ span 1;
+}
+.cg1 {
+    grid-area: 14/3/span 2/span 1;
+}
+.cg2 {
+    grid-area: 14/4/span 2/span 1;
+}
+.green {
+    grid-area: 14/5/span 2/span 1;
+}
+.facemask {
+    grid-area: 16/1/span 2/span 1;
+}
+.masquerade {
+    grid-area: 16/2/span 2/span 2;
+}
+.text {
+    grid-area: 16/4/span 2/span 2;
+}

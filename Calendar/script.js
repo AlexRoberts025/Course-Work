@@ -1,10 +1,12 @@
 var date = new Date();
 console.log(date);
+var active = date.getDate();
+console.log(active);
+
 
 function calendar()
 {
-var active = date.getDate();
-console.log(active);
+
 var month= date.getMonth();
 console.log(month);
 const yyyy= date.getFullYear();
